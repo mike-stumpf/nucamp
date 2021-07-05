@@ -138,7 +138,7 @@ class CommentForm extends Component {
       <Row className="form-group">
        <Label htmlFor="text" md={2}>Comment</Label>
        <Col md={10}>
-        <Control.text model=".text" id="text" name="text"
+        <Control.textarea model=".text" id="text" name="text"
                       placeholder=""
                       className="form-control"
                       validators={{
