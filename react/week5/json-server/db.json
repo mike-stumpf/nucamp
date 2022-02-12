@@ -234,36 +234,5 @@
       "description": "Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided."
     }
   ],
-  "feedback": [
-    {
-      "id": 0,
-      "firstname": "Test",
-      "lastname": "Test",
-      "phoneNum": "12345",
-      "email": "test@test.com",
-      "agree": true,
-      "contactType": "Email",
-      "feedback": "test"
-    },
-    {
-      "firstName": "asdf",
-      "lastName": "asdf",
-      "phoneNum": "12341234123",
-      "email": "asdf@cac.ca",
-      "agree": false,
-      "contactType": "Phone",
-      "feedback": "",
-      "id": 1
-    },
-    {
-      "firstName": "asdf",
-      "lastName": "asdf",
-      "phoneNum": "12341234123",
-      "email": "asdf@cac.ca",
-      "agree": false,
-      "contactType": "Phone",
-      "feedback": "",
-      "id": 2
-    }
-  ]
+  "feedback": []
 }
