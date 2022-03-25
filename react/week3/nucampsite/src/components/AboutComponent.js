@@ -2,24 +2,22 @@ import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
+function RenderPartner({partner}) {
+ if(partner){
+  return (
+      <React.Fragment>
+       <Media object={true} src={partner.image} alt={partner.name} width="150"/>
+       <Media body={true} className="ml-5 mb-4">
+        <Media heading={true}>{partner.name}</Media>
+        {partner.description}
+       </Media>
+      </React.Fragment>
+  )
+ }
+ return <div/>
+}
 
 function About(props) {
-
- function RenderPartner({partner}) {
-  if(partner){
-   return (
-     <React.Fragment>
-      <Media object={true} src={partner.image} alt={partner.name} width="150"/>
-      <Media body={true} className="ml-5 mb-4">
-       <Media heading={true}>{partner.name}</Media>
-       {partner.description}
-      </Media>
-     </React.Fragment>
-   )
-  }
-  return <div/>
- }
-
  const partners = props.partners.map(partner => {
   return (
     <Media tag="li" key={partner.id}>
