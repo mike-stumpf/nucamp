@@ -9,7 +9,7 @@ import {
  Button,
  Modal,
  ModalHeader,
- ModalBody, Form, FormGroup, Label, Input, Row, Col
+ ModalBody, Label, Row, Col
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import {Control, Errors, LocalForm} from "react-redux-form";
